@@ -18,7 +18,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-white px-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-3">
-          Qutub-e-Alam Flowers
+          Qutbe-Alam Flowers
         </h1>
         <p className="text-sm sm:text-base md:text-lg text-gray-100">
           Bringing Freshness, Elegance & Love to Every Occasion
