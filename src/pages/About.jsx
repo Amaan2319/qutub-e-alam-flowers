@@ -2,10 +2,12 @@ import React from "react";
 
 export function About() {
   return (
-    <section className="p-6 max-w-4xl mx-auto text-center">
-      <h2 className="text-2xl font-semibold mb-4">About Us</h2>
+    <section className="p-6 max-w-4xl mx-auto text-center winky-sans">
+      <h1 className="text-4xl sm:text-5xl mb-4 wiky-sans ">
+        About Us
+      </h1>
 
-      <p className="text-gray-700 leading-relaxed">
+      <p className="text-gray-700 leading-relaxed mt-4">
         At <strong>Qutub-e-Alam Flowers</strong>, we believe that every flower
         tells a story. With years of experience in floral design, we specialize
         in creating beautiful arrangements for weddings, birthdays,
@@ -24,7 +26,7 @@ export function About() {
         experience the art of floral beauty crafted with love and care.
       </p>
 
-      <h3 className="text-xl font-semibold mt-10 mb-4">Our Location</h3>
+      <h2 className="text-2xl font-serif mt-10 mb-4">Our Location</h2>
 
       <div className="w-full h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden shadow-md">
         <iframe

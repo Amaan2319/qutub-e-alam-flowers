@@ -33,7 +33,7 @@ export function Home() {
   ];
 
   return (
-    <main className="p-4 max-w-6xl mx-auto flex flex-col gap-10">
+    <main className="p-4 max-w-6xl mx-auto flex flex-col gap-10 winky-sans">
       {/* Products Section */}
       <section>
         <h2 className="text-xl font-semibold mb-4 text-center">Our Flowers</h2>

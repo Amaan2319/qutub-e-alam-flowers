@@ -11,7 +11,7 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-white">
+      <div className="min-h-screen flex flex-col bg-white winky-sans">
         <Navbar />
         <Routes>
           <Route

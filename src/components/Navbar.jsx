@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react"; // modern icons
+import "../index.css"; // make sure .sacramento class is available
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +16,9 @@ export function Navbar() {
         <NavLink
           to="/"
           onClick={() => setMenuOpen(false)}
-          className="text-lg sm:text-xl font-semibold text-black tracking-wide"
+          className="text-2xl sm:text-3xl text-black tracking-wide sacramento"
         >
-          Qutbe-Alam <span className="text-gray-600">Flowers</span>
+          Qutub-e-Alam <span>Flowers</span>
         </NavLink>
 
         {/* Desktop Links */}
